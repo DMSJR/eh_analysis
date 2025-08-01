@@ -83,7 +83,7 @@ diamond blastx -q {bin_file}.fa -d {nr_database.dmnd} -o {output}.tsv \
 ### 3.2 Assign taxonomy with blast2lca
 
 ```bash
-blast2lca -i {diamond_output}.tsv -o {taxonomic_table.txt} --mapDB megan-map-Feb2022.db
+blast2lca -i {diamond_output}.txt -o {taxonomic_table.txt} --mapDB megan-map-Feb2022.db
 ```
 
 ### 3.3 Extract dominant species
